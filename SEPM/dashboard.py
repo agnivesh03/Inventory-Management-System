@@ -10,7 +10,7 @@ import sqlite3
 import os
 from time import *
 from datetime import *
-from tkmacosx import Button
+from tkmacosx import Button #If you are using windows remove this line of code. 
 class SEPM:
     def __init__(self,root):
         self.root = root
